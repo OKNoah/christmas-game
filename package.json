@@ -1,0 +1,51 @@
+{
+  "name": "christmas-game",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/OKNoah/christmas-game.git",
+  "author": "OKNoah <noahgray@me.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "devtools": "./node_modules/.bin/remotedev --hostname=localhost --port=3001"
+  },
+  "dependencies": {
+    "babel-plugin-inline-dotenv": "^1.1.1",
+    "babel-plugin-transform-define": "^1.3.0",
+    "babel-plugin-transform-inline-environment-variables": "^0.2.0",
+    "bufferutil": "^3.0.3",
+    "core-decorators": "^0.20.0",
+    "eslint-plugin-react": "^7.5.1",
+    "final-form": "^1.2.0",
+    "final-form-calculate": "^1.0.1",
+    "konva": "^1.7.6",
+    "lodash": "^4.17.4",
+    "next": "^4.1.4",
+    "next-redux-wrapper": "^1.3.5",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-final-form": "^1.2.0",
+    "react-icons-kit": "^1.0.7",
+    "react-keydown": "^1.9.6",
+    "react-konva": "^1.6.4",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "superagent": "^3.8.2",
+    "utf-8-validate": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.2",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "eslint": "^4.12.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-flowtype": "^2.39.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "flow-bin": "^0.59.0",
+    "remote-redux-devtools": "^0.5.12",
+    "remotedev-server": "^0.2.4"
+  }
+}
